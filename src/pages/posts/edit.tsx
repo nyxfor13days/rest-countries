@@ -29,8 +29,7 @@ export const PostEdit: React.FC = () => {
       <Box
         component="form"
         sx={{ display: "flex", flexDirection: "column" }}
-        autoComplete="off"
-      >
+        autoComplete="off">
         <TextField
           {...register("title", {
             required: "This field is required",
